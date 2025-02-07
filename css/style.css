@@ -1,0 +1,23 @@
+.bg-terciario-02{
+    background-color: #F5F5F5;
+}
+
+.font-color-primario-01{
+    color: #465EA6 !important;
+    font-weight: bold;
+}
+
+.logo-nav
+{
+    width: 124px;
+}
+
+
+
+
+/* Medias queries */
+@media all and (max-width: 576px){
+    .logo-nav{
+        width: 85px;
+    }
+}
