@@ -51,7 +51,8 @@
     width: 300px;
 }
 .icono-viaje{
-    height: 34px;
+    height: 35px;
+    width: 40px;
 }
 
 /* #endregion Images */
@@ -95,6 +96,14 @@
 
 /* #endregion Footer */
 
+/* #region CardsServicios */
+.card-servicio{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+/* #endregion CardsServicios */
 /* #region MediasQueries */
 @media all and (max-width: 1200px) {
     .logo-nav {
