@@ -21,9 +21,10 @@
 /* #endregion FontColors */
 
 /* #region FontSizes */
-.font-size-inicio-texto{
+.font-size-inicio-texto {
     font-size: 20px;
 }
+
 /* #endregion FontSizes */
 
 /* #region NavbarStyles */
@@ -46,31 +47,50 @@
 /* #endregion NavbarStyles */
 
 /* #region Images */
-.logo-inicio
-{
+.logo-inicio {
     width: 300px;
 }
+
 /* #endregion Images */
 
 /* #region Buttons */
-.btn-ingresar
-{
+.btn-ingresar {
     width: 270px;
     height: 46px;
     background-color: #F5F5F5 !important;
     color: #465EA6 !important;
     font-weight: bold;
     border: none;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
+
 /* TODO: crear btn-ingresar:hover */
 /* #endregion Buttons */
 
 /* #region BoxUtilities */
-.p-box-inicio{
+.p-box-inicio {
     width: 700px;
 }
+
 /* #endregion BoxUtilities */
+
+/* #region Utilities */
+.hr-color-primario-03 {
+    color: #A0CCF1 !important;
+}
+
+/* #endregion Utilities */
+
+/* #region Footer */
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: #A0CCF1;
+}
+
+/* #endregion Footer */
 
 /* #region MediasQueries */
 @media all and (max-width: 1200px) {
@@ -78,8 +98,8 @@
         width: 85px;
     }
 
-    .p-box-inicio{
-       width: 100%; 
+    .p-box-inicio {
+        width: 100%;
     }
 }
 
