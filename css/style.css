@@ -1,23 +1,78 @@
-.bg-terciario-02{
+/* #region Backgrounds */
+.bg-terciario-02 {
     background-color: #F5F5F5;
 }
 
-.font-color-primario-01{
-    color: #465EA6 !important;
-    font-weight: bold;
+.bg-primario-01 {
+    background-color: #465EA6;
 }
 
-.logo-nav
-{
+/* #endregion Backgrounds */
+
+/* #region FontColors */
+.font-color-primario-01 {
+    color: #465EA6 !important;
+}
+
+.font-color-terciario-03 {
+    color: #FAFAFA !important;
+}
+
+/* #endregion FontColors */
+/* #region FontSizes */
+.font-size-inicio-texto{
+    font-size: 20px;
+}
+/* #endregion FontSizes */
+
+/* #region NavbarStyles */
+.logo-nav {
     width: 124px;
 }
 
 
 
+.navbar-link {
+    color: #465EA6 !important;
+    font-weight: bold !important;
+}
 
-/* Medias queries */
-@media all and (max-width: 576px){
-    .logo-nav{
+.navbar-link:hover {
+    color: #4E80BF !important;
+    font-weight: bolder !important;
+}
+
+/* #endregion NavbarStyles */
+
+/* #region Buttons */
+.btn-ingresar
+{
+    width: 270px;
+    height: 46px;
+    background-color: #F5F5F5 !important;
+    color: #465EA6 !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;    
+}
+/* TODO: crear btn-ingresar:hover */
+/* #endregion Buttons */
+
+/* #region BoxUtilities */
+.p-box-inicio{
+    width: 700px;
+}
+/* #endregion BoxUtilities */
+
+/* #region MediasQueries */
+@media all and (max-width: 576px) {
+    .logo-nav {
         width: 85px;
     }
+
+    .p-box-inicio{
+       width: 100%; 
+    }
 }
+
+/* #endregion MediasQueries */
