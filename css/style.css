@@ -19,6 +19,7 @@
 }
 
 /* #endregion FontColors */
+
 /* #region FontSizes */
 .font-size-inicio-texto{
     font-size: 20px;
@@ -44,6 +45,13 @@
 
 /* #endregion NavbarStyles */
 
+/* #region Images */
+.logo-inicio
+{
+    width: 300px;
+}
+/* #endregion Images */
+
 /* #region Buttons */
 .btn-ingresar
 {
@@ -65,7 +73,7 @@
 /* #endregion BoxUtilities */
 
 /* #region MediasQueries */
-@media all and (max-width: 576px) {
+@media all and (max-width: 1200px) {
     .logo-nav {
         width: 85px;
     }
