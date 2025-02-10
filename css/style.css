@@ -56,6 +56,12 @@
     padding: 0px;
     margin: 0px;
 }
+.bg-icon-mobile{
+    background-color:#4E80BF;
+    border-radius: 50px;
+    padding: 15px;
+    
+}
 
 /* #endregion Images */
 
@@ -83,13 +89,17 @@
 .card-height-segunda-fila{
     height: 360px !important;
 }   
-
+.card-height-mobile
+{
+    height: 343px !important;
+}
 /* #endregion BoxUtilities */
 
 /* #region Utilities */
 .hr-color-primario-03 {
     color: #A0CCF1 !important;
 }
+
 
 /* #endregion Utilities */
 
