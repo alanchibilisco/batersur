@@ -100,6 +100,10 @@
 {
     height: 535px !important;
 }
+.icon-contacto-box{
+    width: 120px;
+    height: 120px;
+}
 /* #endregion BoxUtilities */
 
 /* #region Utilities */
@@ -130,6 +134,21 @@
 }
 /* #endregion CardsServicios */
 
+/* #region Chat */
+.chat{    
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.chat-box{
+    width: 90px;
+    height: 90px;
+}
+/* #endregion Chat */
+
 /* #region MediasQueries */
 @media all and (max-width: 1200px) {
     .logo-nav {
@@ -138,6 +157,18 @@
 
     .p-box-inicio {
         width: 100%;
+    }
+
+    .chat-box{
+        width: 70px;
+        height: 70px;
+    }
+
+    .chat{    
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;        
     }
 }
 
