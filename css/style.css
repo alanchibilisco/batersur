@@ -122,6 +122,7 @@
     padding-right: 0px !important;
 }
 /* #endregion CardsServicios */
+
 /* #region MediasQueries */
 @media all and (max-width: 1200px) {
     .logo-nav {
