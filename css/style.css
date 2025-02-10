@@ -51,8 +51,10 @@
     width: 300px;
 }
 .icono-viaje{
-    height: 35px;
+    height: 32px;
     width: 40px;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* #endregion Images */
@@ -75,6 +77,12 @@
 .p-box-inicio {
     width: 700px;
 }
+.card-height-primera-fila{
+    height: 330px !important;
+}
+.card-height-segunda-fila{
+    height: 360px !important;
+}   
 
 /* #endregion BoxUtilities */
 
