@@ -59,8 +59,11 @@
 .bg-icon-mobile{
     background-color:#4E80BF;
     border-radius: 50px;
-    padding: 15px;
-    
+    padding: 15px;    
+}
+
+.icon-beneficio-width{
+    width: 50px;
 }
 
 /* #endregion Images */
@@ -91,7 +94,11 @@
 }   
 .card-height-mobile
 {
-    height: 343px !important;
+    height: 400px !important;
+}
+.card-text-height-mobile
+{
+    height: 535px !important;
 }
 /* #endregion BoxUtilities */
 
