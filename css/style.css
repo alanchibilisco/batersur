@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 /* #region Backgrounds */
 .bg-terciario-02 {
     background-color: #F5F5F5;
@@ -50,19 +56,21 @@
 .logo-inicio {
     width: 300px;
 }
-.icono-viaje{
+
+.icono-viaje {
     height: 32px;
     width: 40px;
     padding: 0px;
     margin: 0px;
 }
-.bg-icon-mobile{
-    background-color:#4E80BF;
+
+.bg-icon-mobile {
+    background-color: #4E80BF;
     border-radius: 50px;
-    padding: 15px;    
+    padding: 15px;
 }
 
-.icon-beneficio-width{
+.icon-beneficio-width {
     width: 50px;
 }
 
@@ -86,24 +94,32 @@
 .p-box-inicio {
     width: 700px;
 }
-.card-height-primera-fila{
+
+.card-height-primera-fila {
     height: 330px !important;
 }
-.card-height-segunda-fila{
+
+.card-height-segunda-fila {
     height: 360px !important;
-}   
-.card-height-mobile
-{
+}
+
+.card-height-mobile {
     height: 400px !important;
 }
-.card-text-height-mobile
-{
+
+.card-text-height-mobile {
     height: 535px !important;
 }
-.icon-contacto-box{
+
+.card-height-tablet {
+    height: 290px !important;
+}
+
+.icon-contacto-box {
     width: 120px;
     height: 120px;
 }
+
 /* #endregion BoxUtilities */
 
 /* #region Utilities */
@@ -126,27 +142,30 @@
 /* #endregion Footer */
 
 /* #region CardsServicios */
-.card-servicio{
+.card-servicio {
     margin-left: 15px !important;
     margin-right: 15px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
 /* #endregion CardsServicios */
 
 /* #region Chat */
-.chat{    
+.chat {
     position: fixed;
     right: 35px;
     bottom: 35px;
     border-radius: 50%;
     padding: 5px;
-    
+
 }
-.chat-box{
+
+.chat-box {
     width: 90px;
     height: 90px;
 }
+
 /* #endregion Chat */
 
 /* #region MediasQueries */
@@ -159,16 +178,16 @@
         width: 100%;
     }
 
-    .chat-box{
+    .chat-box {
         width: 80px;
         height: 80px;
     }
 
-    .chat{    
+    .chat {
         position: fixed;
         right: 15px;
         bottom: 15px;
-        border-radius: 50%;        
+        border-radius: 50%;
     }
 }
 
