@@ -6,18 +6,18 @@
 
 /* #region Backgrounds */
 .bg-terciario-02 {
-    background-color: #F5F5F5;
+    background-color: #f6f6f6;
 }
 
 .bg-primario-01 {
-    background-color: #465EA6;
+    background-color: #220bee;
 }
 
 /* #endregion Backgrounds */
 
 /* #region FontColors */
 .font-color-primario-01 {
-    color: #465EA6 !important;
+    color: #1b00ff !important;
 }
 
 .font-color-terciario-03 {
@@ -35,18 +35,19 @@
 
 /* #region NavbarStyles */
 .logo-nav {
-    width: 124px;
+    width: 110px;
+    height: 75px;
 }
 
 
 
 .navbar-link {
-    color: #465EA6 !important;
+    /* color: #1b00ff !important; */
     font-weight: bold !important;
 }
 
 .navbar-link:hover {
-    color: #4E80BF !important;
+    /* color: #4E80BF !important; */
     font-weight: bolder !important;
 }
 
@@ -96,7 +97,7 @@
 }
 
 .card-height-primera-fila {
-    height: 330px !important;
+    height: 425px !important;
 }
 
 .card-height-segunda-fila {
@@ -104,7 +105,7 @@
 }
 
 .card-height-mobile {
-    height: 400px !important;
+    height: 650px !important;
 }
 
 .card-text-height-mobile {
@@ -131,13 +132,13 @@
 /* #endregion Utilities */
 
 /* #region Footer */
-.footer-link {
-    color: white;
+/* .footer-link {
+    color: black;
 }
 
 .footer-link:hover {
     color: #A0CCF1;
-}
+} */
 
 /* #endregion Footer */
 
