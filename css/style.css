@@ -35,8 +35,8 @@
 
 /* #region NavbarStyles */
 .logo-nav {
-    width: 110px;
-    height: 75px;
+    width: 120px;
+    height: 100px;
 }
 
 
@@ -121,6 +121,21 @@
     height: 120px;
 }
 
+.card-brand-desktop
+{
+    width: 400px;
+    height: 200px;
+}
+.card-brand-md
+{
+    /* width: 400px; */
+    height: 150px;
+}
+
+.card-brand-mobile
+{
+    height: 200px !important;
+}
 /* #endregion BoxUtilities */
 
 /* #region Utilities */
