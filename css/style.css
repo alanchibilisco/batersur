@@ -136,6 +136,10 @@
 {
     height: 200px !important;
 }
+.carousel-box
+{
+    height: 700px;
+}
 /* #endregion BoxUtilities */
 
 /* #region Utilities */
@@ -204,6 +208,11 @@
         right: 15px;
         bottom: 15px;
         border-radius: 50%;
+    }
+
+    .carousel-box
+    {
+        height: 500px;
     }
 }
 
