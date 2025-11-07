@@ -9,6 +9,11 @@
     background-color: #f6f6f6;
 }
 
+.bg-gray
+{
+    background-color:  #f1f0f0;
+}
+
 .bg-primario-01 {
     background-color: #220bee;
 }
@@ -30,7 +35,9 @@
 .font-size-inicio-texto {
     font-size: 20px;
 }
-
+.font-data{
+    font-size: 12px;
+}
 /* #endregion FontSizes */
 
 /* #region NavbarStyles */
@@ -39,7 +46,12 @@
     height: 100px;
 }
 
-
+.logo-moura {
+    width: 140px;
+    height: 100px;
+    padding-top: 0;
+    margin-top: 0;
+}
 
 .navbar-link {
     /* color: #1b00ff !important; */
@@ -123,7 +135,7 @@
 
 .card-brand-desktop
 {
-    width: 400px;
+    width: auto;
     height: 200px;
 }
 .card-brand-md
@@ -182,8 +194,8 @@
 }
 
 .chat-box {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
 }
 
 /* #endregion Chat */
@@ -192,6 +204,10 @@
 @media all and (max-width: 1200px) {
     .logo-nav {
         width: 85px;
+    }
+
+    .logo-moura {
+        width: 120px ;
     }
 
     .p-box-inicio {
