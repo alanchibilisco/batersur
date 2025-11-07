@@ -56,7 +56,7 @@
         <article class="px-xl-5 py-5">
           <!-- #region CarouselDesktop -->
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -66,31 +66,53 @@
                 aria-label="Slide 3"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                 aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/carousel/batersur-frente-2.jpg" class=" carousel-box w-100" alt="...">
+                <div class="d-flex justify-content-center mb-5">
+                  <img src="./img/carousel/1.webp" class="d-none d-md-block carousel-box w-75" alt="...">
+                  <img src="./img/carousel/1.webp" class="d-md-none carousel-box w-100" alt="...">
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/carousel/batersur-frente-1.jpg" class="carousel-box w-100" alt="...">
+                <div class="d-flex justify-content-center mb-5">
+                  <img src="./img/carousel/2.webp" class="d-none d-md-block carousel-box w-75" alt="...">
+                  <img src="./img/carousel/2.webp" class="d-md-none carousel-box w-100" alt="...">
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/carousel/batersur-frente-3.jpg" class="carousel-box w-100" alt="...">
+                <div class="d-flex justify-content-center mb-5">
+                  <img src="./img/carousel/3.webp" class="d-none d-md-block carousel-box w-75" alt="...">
+                  <img src="./img/carousel/3.webp" class="d-md-none carousel-box w-100" alt="...">
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/carousel/batersur-punto-service.jpg" class="carousel-box w-100" alt="...">
+                <div class="d-flex justify-content-center mb-5">
+                  <img src="./img/carousel/4.webp" class="d-none d-md-block carousel-box w-75" alt="...">
+                  <img src="./img/carousel/4.webp" class="d-md-none carousel-box w-100" alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center mb-5">
+                  <img src="./img/carousel/5.webp" class="d-none d-md-block carousel-box w-75" alt="...">
+                  <img src="./img/carousel/5.webp" class="d-md-none carousel-box w-100" alt="...">
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="d-none d-md-block">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
 
           <!-- #endregion CarouselDesktop -->
@@ -166,8 +188,8 @@
       <!-- #endregion QuienesSomos -->
 
       <!-- #region Servicios -->
-      <section class="container-fluid bg-terciario-02 py-3 py-xl-5" id="servicios">
-        <article class="mx-xl-5 px-xl-5">
+      <section class="container bg-terciario-02 py-3 py-xl-5 px-4 px-xl-0" id="servicios">
+        <article class="">
           <div class="row pb-xl-1 mb-xl-5">
             <div class="col-xl-3 d-none d-xl-block"></div>
             <div class="col-12 col-xl-6 text-center">
@@ -597,17 +619,18 @@
                 </div>
 
               </div>
-
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="d-none d-md-block">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
           <!-- #endregion ServiciosMobile -->
@@ -616,8 +639,8 @@
       <!-- #endregion Servicios -->
 
       <!-- #region Marcas -->
-      <section class="container-fluid bg-white py-3 py-xl-5 px-xl-5 mx-xl-5 rounded-4" id="marcas">
-        <article class="mx-xl-5 px-xl-5">
+      <section class="container bg-white py-3 py-xl-5 px-4 px-xl-0  rounded-4" id="marcas">
+        <article class="px-2 px-xl-5">
           <div class="row pb-xl-1">
             <div class="col-xl-3 d-none d-xl-block"></div>
             <div class="col-12 col-xl-6 text-center">
@@ -810,7 +833,7 @@
                   </div>
                 </div>
 
-
+                <div class="d-none d-md-block">
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying2"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -821,6 +844,7 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
+                </div>
               </div>
             </div>
             <!-- #endregion MarcasMobile -->
@@ -830,8 +854,8 @@
       <!-- #endregion BeneficiosClaves -->
 
       <!-- #region Contacto -->
-      <section class="container-fluid bg-terciario-02 py-3 py-xl-5" id="contacto">
-        <article class="mx-xl-5 px-xl-5">
+      <section class="container bg-terciario-02 py-3 py-xl-5 px-4 px-xl-0" id="contacto">
+        <article class="">
           <div class="row pb-xl-1 mb-xl-5">
             <div class="col-xl-3 d-none d-xl-block"></div>
             <div class="col-12 col-xl-6 text-center">
